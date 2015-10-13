@@ -6,7 +6,8 @@ package Singleton;
  */
 public class Singleton {
     private static Singleton uniqueInstance;
-    private Singleton() {}
+    private Singleton() { // db connection code
+    }
     public static Singleton getInstance() {
         if (uniqueInstance == null)
             uniqueInstance = new Singleton();

@@ -6,6 +6,7 @@ package Builder;
 public class CakeBuilder {
     public static void main(String[] args) {
         Cake whiteCake = new Cake.Builder().sugar(1).milk(1).butter(2).build();
+        Cake BS = new Cake.Builder().sugar(2).milk(1).build();
 
         System.out.println("c = " + whiteCake);
     }
